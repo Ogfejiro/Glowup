@@ -2,20 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+  font-family: "ubuntu";
+  src: url("/fonts/Ubuntu/Ubuntu-Regular.ttf");
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@font-face {
+  font-family: "medium";
+  src: url("/fonts/Ubuntu/Ubuntu-Medium.ttf");
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+* {
+  @apply font-ubuntu;
+  scroll-behavior: smooth;
+}
+
+.transition_item {
+  @apply transition duration-200 ease-in;
+}
+
+.padding-x {
+  @apply lg:px-20 md:px-14 px-6;
+}
+
+.padding-y {
+  @apply py-12;
+}
+
+.maxWidth {
+  @apply max-w-[1440px] mx-auto;
 }
