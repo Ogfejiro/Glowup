@@ -11,6 +11,13 @@ module.exports = {
         ubuntu: ["ubuntu", "sans-serif"],
         medium: ["medium", "sans-serif"],
       },
+
+      backgroundImage: {
+        'hero-pattern': "url('/images/back.png')",
+      },
+      opacity: {
+        '80': '.8',
+      },
     },
   },
   plugins: [],

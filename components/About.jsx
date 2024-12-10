@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function About() {
   return (
     <section id="about">
-      <div className="grid md:grid-cols-2 maxWidth">
+      <div className="grid md:grid-cols-2 maxWidth ">
         <div
           className="bg-black flex items-center justify-center padding-x"
           data-aos="fade-in"
