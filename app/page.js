@@ -2,7 +2,7 @@
 
 import About from "@/components/About";
 import Aim from "@/components/Aim";
-import Footer from "@/components/Footer";
+import Footer from "@/components/Contact";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Services from "@/components/Services";

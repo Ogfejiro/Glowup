@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-const Footer = () => {
+const Contact = () => {
   return (
     <footer className="bg-black text-white py-4 pt-10">
       <div className="container mx-auto px-4"> {/* Wrap entire footer content */}
@@ -38,4 +38,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Contact;
