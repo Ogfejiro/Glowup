@@ -3,33 +3,34 @@ import Image from 'next/image';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white py-4 pt-10">
-      <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-          <div className="flex items-center">
-            <h1 className="text-2xl font-bold">Glow Up Electrical</h1>
-            <div className="ml-4">
-              <p className="text-sm">Contact: 09017991116</p>
-              <p className="text-sm">Email: slywie8@gmail.com</p>
-              <p className="text-sm">Address: 66 Falolu Road, Surulere, Lagos</p>
+    <footer className="bg-black text-white py-4 pt-10">
+      <div className="container mx-auto px-4"> {/* Wrap entire footer content */}
+        <div className="flex justify-center mb-8"> {/* Center logo horizontally */}
+        <div className="flex-shrink-0 text-white">
+          <Image
+            src="/logo.svg"
+            alt="Logo"
+            width={227}
+            height={38}
+            className="md:w-[227px] md:h-[38px] h-[30px] w-[187px]"
+          />
+        </div>
+        </div>
+
+        <div className=" text-center leading-9 md:flex md:justify-center md:items-center gap-10"> {/* Flex on large screens */}
+          <p>Contact: 09017991116</p>
+          <p>Email: slywie8@gmail.com</p>
+          <p>Address: 66 falolu road surulere, lagos</p>
+        </div>
+
+
+        <div className="mt-8">
+          <div className="flex items-center gap-4 text-[rgba(255,255,255,.7)]">
+            <div className="h-[.5px] grow bg-[rgba(255,255,255,.7)]" />
+            <div className="text-center">
+              &copy; 2024 Glow Up Electrical All Simple Right Reserved
             </div>
-          </div>
-          <div className="flex justify-between items-center">
-            <Image
-              src="/images/section/Line 6.png"
-              alt="line"
-              width={30}
-              height={4}
-              className="md:w-48"
-            />
-            <p className="text-sm">© 2024 Glow Up Electrical. All Rights Reserved.</p>
-            <Image
-              src="/images/section/Line 6.png"
-              alt="line"
-              width={30}
-              height={4}
-              className="md:w-48"
-            />
+            <div className="h-[.5px] grow bg-[rgba(255,255,255,.7)]" />
           </div>
         </div>
       </div>
