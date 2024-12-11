@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function About() {
   return (
     <section id="about">
-      <div className="grid md:grid-cols-2 maxWidth ">
+      <div className="grid md:grid-cols-2 maxWidth">
         <div
           className="bg-black flex items-center justify-center padding-x"
           data-aos="fade-in"
@@ -11,7 +11,7 @@ export default function About() {
           <p className="padding-y lg:text-xl text-white font-normal tracking-wide text-center max-w-[430px]">
             At Glow up, we specialize in delivering top-notch electrical sales
             and installation services tailored to meet your unique needs.
-            Whether you're outfitting your home, upgrading your business
+            Whether you&apos;re outfitting your home, upgrading your business
             infrastructure, or tackling a large-scale project, our team of
             experienced professionals is here to ensure quality, safety, and
             reliability.
