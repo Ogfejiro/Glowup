@@ -17,12 +17,12 @@ const Contact = () => {
         </div>
         </div>
 
-        <div className=" text-center leading-9 md:flex md:justify-center md:items-center gap-10"> {/* Flex on large screens */}
-          <p>Contact: 09017991116</p>
-          <p>Email: slywie8@gmail.com</p>
-          <p>Address: 66 falolu road surulere, lagos</p>
-        </div>
-
+        <div className="text-center leading-9 md:flex md:justify-center md:items-center gap-10">
+  {/* Flex on large screens */}
+  <p>Contact: <a href="tel:09017991116">09017991116</a></p>
+  <p>Email: <a href={`mailto:slywie8@gmail.com`}>slywie8@gmail.com</a></p>
+  <p>Address: 66 falolu road surulere, lagos</p>
+</div>
 
         <div className="mt-8">
           <div className="flex items-center gap-4 text-[rgba(255,255,255,.7)]">
