@@ -3,18 +3,18 @@ import Image from 'next/image';
 
 const Contact = () => {
   return (
-    <footer className="bg-black text-white py-4 pt-10">
+    <footer className="bg-black text-white py-4 pt-10" id='contact'>
       <div className="container mx-auto px-4"> {/* Wrap entire footer content */}
         <div className="flex justify-center mb-8"> {/* Center logo horizontally */}
         <div className="flex-shrink-0 text-white">
-          <Image
-            src="/logo.svg"
-            alt="Logo"
-            width={227}
-            height={38}
-            className="md:w-[227px] md:h-[38px] h-[30px] w-[187px]"
-          />
-        </div>
+  <Image
+    src="/logo.svg"
+    alt="Logo"
+    width={227}
+    height={38}
+    className="md:w-[227px] md:h-[38px] h-[30px] w-[187px] filter invert" // Add the filter invert class
+  />
+</div>
         </div>
 
         <div className="text-center leading-9 md:flex md:justify-center md:items-center gap-10">

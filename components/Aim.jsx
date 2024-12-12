@@ -8,25 +8,25 @@ const Aim = () => {
         <p className="padding-x" data-aos="fade-right">To deliver innovative, reliable, and sustainable electrical solutions that exceed customer expectations, ensuring safety, efficiency, and long-term value in every project.</p>
         <h2 className="pt-12 font-bold">Objectives</h2>
         <div className="flex flex-col md:flex-row justify-center items-center gap-12 pt-10 padding-x">
-          <div className="flex-1 bg-gradient-to-r from-gray-500 to-gray-300 p-2 rounded-lg shadow-md h-48" data-aos="fade-left">
+          <div className="flex-1 bg-gradient-to-r from-gray-500 to-gray-900 p-2 rounded-lg shadow-md h-56" data-aos="fade-left">
             <div className="text-gray-100 text-center">
               <p className="font-bold text-xl pb-3">Customer Satisfaction</p>
               <p className='pt-3'>Provide high-quality products and professional services to meet and exceed customer needs.</p>
             </div>
           </div>
-          <div className="flex-1 bg-gradient-to-r from-gray-500 to-gray-300 p-2 rounded-lg shadow-md h-48" data-aos="fade-right">
+          <div className="flex-1 bg-gradient-to-r from-gray-500 to-gray-900 p-2 rounded-lg shadow-md h-56" data-aos="fade-right">
             <div className="text-gray-100 text-center">
               <p className="font-bold text-xl pb-3">Safety Compliance</p>
               <p className='pt-3'>Adhere to the highest safety standards in all installations and maintenance services.</p>
             </div>
           </div>
-          <div className="flex-1 bg-gradient-to-r from-gray-500 to-gray-300 p-2 rounded-lg shadow-md h-48" data-aos="fade-left">
+          <div className="flex-1 bg-gradient-to-r from-gray-500 to-gray-900 p-2 rounded-lg shadow-md h-56" data-aos="fade-left">
             <div className="text-gray-100 text-center">
               <p className="font-bold text-xl pb-3">Sustainability</p>
               <p className='pt-3'>Promote energy-efficient and eco-friendly solutions to minimize environmental impact.</p>
             </div>
           </div>
-          <div className="flex-1 bg-gradient-to-r from-gray-500 to-white-100 p-2 rounded-lg shadow-md h-48" data-aos="fade-right">
+          <div className="flex-1 bg-gradient-to-r from-gray-500 to-gray-900 p-2 rounded-lg shadow-md h-56" data-aos="fade-right">
             <div className="text-gray-100 text-center">
               <p className="font-bold text-xl pb-3">Innovative</p>
               <p className='pt-3'>Stay updated with the latest technologies to offer cutting-edge electrical solutions.</p>
