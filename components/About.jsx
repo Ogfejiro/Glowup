@@ -27,7 +27,7 @@ export default function About() {
             alt="chandelier"
             width={458}
             height={658}
-            className="md:w-[458px] md:h-[658px] h-[350px] w-[250px]"
+            className="md:w-[458px] lg:h-[658px] md:h-[500px] h-[350px] w-[250px]"
           />
         </div>
 
@@ -37,7 +37,7 @@ export default function About() {
         >
           <Image
             src="/images/about/product-2.png"
-            alt="chandelier"
+            alt="lightings"
             width={572}
             height={572}
           />
@@ -73,7 +73,7 @@ export default function About() {
         >
           <Image
             src="/images/about/product-3.png"
-            alt="chandelier"
+            alt="freezer"
             width={406}
             height={690}
           />

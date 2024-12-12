@@ -15,7 +15,7 @@ export default function Navbar() {
           />
         </div>
 
-        <ul className="lg:justify-center justify-end flex-grow lg:space-x-14 space-x-7 text-[#121212] hidden md:flex">
+        <ul className="2xl:justify-end lg:justify-center justify-end flex-grow lg:space-x-14 space-x-7 text-[#121212] hidden md:flex">
           <li>
             <Link href="#home" className="hover:text-gray-900">
               Home
