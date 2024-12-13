@@ -9,36 +9,16 @@ const Services = () => {
         <p className="padding-x" data-aos="fade-in">We offer services tailored to meet your unique needs. Whether you are outfitting your home, house wiring needs, both surface and conduit, upgrading your business infrastructure, or tackling a large-scale project, our team of experienced professionals is here to ensure quality, safety, and reliability.</p>
         <div className="flex flex-col md:flex-row justify-center items-center pt-10 pb-10">
           <div className="padding-x  sm:w-full" data-aos="flip-left">
-            <Image
-              src="/images/section/fix.png"
-              alt="Man Image"
-              width={300}
-              height={150}
-              objectFit="cover"
-              objectPosition="center"
-              className="rounded-lg"
-            />
+          <img className="rounded-xl" src="/images/section/man.png" style={{ objectFit: 'cover' }} />
+          <p data-aos="fade-up">Electrical Installation</p>
           </div>
           <div className="padding-x  sm:w-full" data-aos="flip-right">
-            <Image
-              className="rounded-lg"
-              src="/images/section/wire (1).png"
-              alt="Man Image"
-              width={300}
-              height={150}
-              objectFit="cover"
-              objectPosition="center"
-            />
+          <img className='rounded-xl' src="/images/section/wire (1).png" style={{ objectFit: 'cover' }} />
+          <p data-aos="fade-up">Custom Solutions</p>
           </div>
           <div className="padding-x  sm:w-full" data-aos="flip-up">
-            <Image
-              src="/images/section/man.png"
-              alt="Man Image"
-              width={350}
-              height={150}
-              objectFit="cover"
-              objectPosition="center"
-            />
+          <img  src="/images/section/fix.png" style={{ objectFit: 'cover' }} />
+          <p data-aos="fade-up">Maintenance and Repairs</p>
           </div>
         </div>
       </div>
