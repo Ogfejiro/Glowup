@@ -22,7 +22,7 @@
 }
 
 .padding-x {
-  @apply lg:px-20 md:px-14 px-6;
+  @apply 2xl:px-0 lg:px-20 md:px-14 px-6;
 }
 
 .padding-y {
