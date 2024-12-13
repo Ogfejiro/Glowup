@@ -19,16 +19,19 @@ const Services = () => {
           quality, safety, and reliability.
         </p>
         <div className="flex flex-col md:flex-row justify-center items-center pt-10 pb-10">
-          <div className="padding-x  sm:w-full" data-aos="flip-left">
-          <img className="rounded-xl" src="/images/section/man.png" style={{ objectFit: 'cover' }} />
-          <p data-aos="fade-up">Electrical Installation</p>
-          </div>
-          <div className="padding-x  sm:w-full" data-aos="flip-right">
-          <img className='rounded-xl' src="/images/section/wire (1).png" style={{ objectFit: 'cover' }} />
-          <p data-aos="fade-up">Custom Solutions</p>
-          </div>
-          
-        </div>
+  <div className="flex-1 padding-x sm:w-full" data-aos="flip-left">
+    <img className="rounded-xl w-full md:w-96 object-cover" src="/images/section/man.png" />
+    <p data-aos="fade-up">Electrical Installation</p>
+  </div>
+  <div className="flex-1 padding-x sm:w-full" data-aos="flip-right">
+    <img className="rounded-xl w-full md:w-96 object-cover" src="/images/section/wire (1).png" />
+    <p data-aos="fade-up">Custom Solutions</p>
+  </div>
+  <div className="flex-1 padding-x sm:w-full" data-aos="flip-up">
+    <img className="rounded-xl w-full md:w-96 object-cover" src="/images/section/fix.png" />
+    <p data-aos="fade-up">Maintenance and Repairs</p>
+  </div>
+</div>
       </div>
     </section>
   );
