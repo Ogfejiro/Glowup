@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 
 const Contact = () => {
   return (
@@ -11,7 +10,7 @@ const Contact = () => {
           {" "}
           {/* Center logo horizontally */}
           <div className="flex-shrink-0 text-white">
-            <Image
+            <img
               src="/logo.svg"
               alt="Logo"
               width={227}

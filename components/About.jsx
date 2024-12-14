@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function About() {
   return (
     <section id="about">
@@ -22,7 +20,7 @@ export default function About() {
           className="flex justify-center padding-x items-center"
           data-aos="zoom-in"
         >
-          <Image
+          <img
             src="/images/about/product-1.png"
             alt="chandelier"
             width={458}
@@ -35,7 +33,7 @@ export default function About() {
           className="order-4 md:order-3 flex items-center padding-x justify-center"
           data-aos="zoom-in"
         >
-          <Image
+          <img
             src="/images/about/product-2.png"
             alt="lightings"
             width={572}
@@ -71,7 +69,7 @@ export default function About() {
           className="order-6 padding-x md:flex hidden justify-center items-center"
           data-aos="zoom-in"
         >
-          <Image
+          <img
             src="/images/about/product-3.png"
             alt="freezer"
             width={406}

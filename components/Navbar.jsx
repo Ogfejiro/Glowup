@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Navbar() {
@@ -6,7 +5,7 @@ export default function Navbar() {
     <nav id="home" className="sticky top-0 bg-white shadow-md z-10">
       <div className="md:py-6 py-4 flex items-center justify-between padding-x 2xl:px-0 maxWidth">
         <div className="flex-shrink-0">
-          <Image
+          <img
             src="/logo.svg"
             alt="Logo"
             width={227}

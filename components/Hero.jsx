@@ -1,5 +1,4 @@
 import { heroProducts } from "@/data/hero";
-import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -25,7 +24,7 @@ export default function Hero() {
         </div>
 
         <div className="hidden md:flex justify-center" data-aos="zoom-in">
-          <Image src="/images/hero.png" alt="hero" width={505} height={472} />
+          <img src="/images/hero.png" alt="hero" width={505} height={472} />
         </div>
       </div>
     </section>
@@ -35,7 +34,7 @@ export default function Hero() {
 const Product = ({ img, text }) => {
   return (
     <div className="bg-white rounded-lg pb-4 flex flex-col justify-between items-center">
-      <Image
+      <img
         src={img}
         alt={text}
         width={132}
