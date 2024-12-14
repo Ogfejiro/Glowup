@@ -1,6 +1,14 @@
-import React from "react";
+"use client"
+
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Aim = () => {
+  
+    useEffect(() => {
+      AOS.init({ duration: 1200 });
+    }, []);
   return (
     <div>
       <div className="text-center pt-12 pb-12 maxWidth">

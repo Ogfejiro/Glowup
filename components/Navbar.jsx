@@ -1,6 +1,15 @@
+'use client'
 import Link from "next/link";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
+
 export default function Navbar() {
+  useEffect(() => {
+    AOS.init({ duration: 1200 });
+  }, []);
   return (
     <nav id="home" className="sticky top-0 bg-white shadow-md z-10">
       <div className="md:py-6 py-4 flex items-center justify-between padding-x 2xl:px-0 maxWidth">

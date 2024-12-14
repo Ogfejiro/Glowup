@@ -1,4 +1,13 @@
-export default function About() {
+'use client'
+
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
+  export default function About() {
+  useEffect(() => {
+    AOS.init({ duration: 1200 });
+  }, []);
   return (
     <section id="about">
       <div className="grid md:grid-cols-2 maxWidth">
