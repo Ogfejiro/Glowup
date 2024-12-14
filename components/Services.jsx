@@ -1,6 +1,12 @@
-import React from "react";
+'use client'
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
-const Services = () => {
+  const Services = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1200 });
+  }, []);
   return (
     <section
       className="bg-hero-pattern bg-cover bg-center bg-fixed padding-x"

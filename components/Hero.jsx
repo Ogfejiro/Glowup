@@ -1,6 +1,14 @@
+'use client'
+
 import { heroProducts } from "@/data/hero";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export default function Hero() {
+  useEffect(() => {
+    AOS.init({ duration: 1200 });
+  }, []);
   return (
     <section className="padding-x bg-[#F0F0F0] py-12">
       <div className="grid md:grid-cols-2 gap-12 maxWidth">

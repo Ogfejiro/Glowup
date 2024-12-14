@@ -1,6 +1,14 @@
-import React from "react";
+"use client"
+
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 
 const Contact = () => {
+  useEffect(() => {
+  AOS.init({ duration: 1200 });
+    }, []);
   return (
     <footer className="bg-black text-white py-4 pt-10 padding-x" id="contact">
       <div className="maxWidth">
